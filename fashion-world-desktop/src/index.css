@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom print styles */
+@media print {
+  .print-button {
+    display: none !important;
+  }
+}
